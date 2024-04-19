@@ -1,0 +1,47 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/** Header **/
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img {
+    background: url('D:\CSS, HTML and Javascript\First Website\images\restaurant-logo_large.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+.navbar-brand { /*Restaurant Name*/
+    font-family: "Lora", serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    line-height: .75;
+}
+
+.navbar-brand:hover a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+.navbar-brand p {  /* Kosher cert*/
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+.navbar-brand p span {   /*Star-K*/
+    vertical-align: middle;
+}
